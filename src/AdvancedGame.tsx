@@ -206,7 +206,7 @@ const AdvancedGame = (props: Props) => {
         ].isRevealed = false;
         updateGrid[rowIndex][colIndex].isRevealed = false;
         setAdvancedGameGrid(updateGrid);
-      }, 400);
+      }, 600);
     }
 
     const hasWon = revealAdvancedGameGrid
